@@ -1,0 +1,126 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3eb19c74-72fd-4a35-866f-1382ee9c4fdf": {
+        "id": "3eb19c74-72fd-4a35-866f-1382ee9c4fdf",
+        "parent": null,
+        "name": "MergeTestWithNoCode",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "07fab853-44d8-492e-ab44-14757bd3da32",
+          "8afcc2e2-d075-4000-b293-449a9a78ffba"
+        ],
+        "isRemovable": false,
+        "filePath": "MergeTestWithNoCode"
+      },
+      "07fab853-44d8-492e-ab44-14757bd3da32": {
+        "id": "07fab853-44d8-492e-ab44-14757bd3da32",
+        "parent": "3eb19c74-72fd-4a35-866f-1382ee9c4fdf",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MergeTestWithNoCode/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "8afcc2e2-d075-4000-b293-449a9a78ffba": {
+        "id": "8afcc2e2-d075-4000-b293-449a9a78ffba",
+        "parent": "3eb19c74-72fd-4a35-866f-1382ee9c4fdf",
+        "name": "sub",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "91bbaef1-eaab-442e-a5ea-f18f239552d3",
+          "0f55aef2-925d-4a0c-b8fd-fbd828514b93"
+        ],
+        "isRemovable": true,
+        "filePath": "MergeTestWithNoCode/sub"
+      },
+      "91bbaef1-eaab-442e-a5ea-f18f239552d3": {
+        "id": "91bbaef1-eaab-442e-a5ea-f18f239552d3",
+        "parent": "8afcc2e2-d075-4000-b293-449a9a78ffba",
+        "name": "MyPF.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MergeTestWithNoCode/sub/MyPF.py",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "0f55aef2-925d-4a0c-b8fd-fbd828514b93": {
+        "id": "0f55aef2-925d-4a0c-b8fd-fbd828514b93",
+        "parent": "8afcc2e2-d075-4000-b293-449a9a78ffba",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MergeTestWithNoCode/sub/__init__.py"
+      }
+    },
+    "rootNode": "3eb19c74-72fd-4a35-866f-1382ee9c4fdf",
+    "openFiles": [
+      "07fab853-44d8-492e-ab44-14757bd3da32",
+      "91bbaef1-eaab-442e-a5ea-f18f239552d3"
+    ],
+    "currentFileId": "91bbaef1-eaab-442e-a5ea-f18f239552d3",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "91bbaef1-eaab-442e-a5ea-f18f239552d3",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/MergeTestWithNoCode/sub",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "MergeTestWithNoCode",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576566540708
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "MergeTestWithNoCode",
+      "url": "https://github.com/zgma-test/MergeTestWithNoCode"
+    }
+  }
+}
